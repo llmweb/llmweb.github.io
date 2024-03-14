@@ -1,0 +1,1 @@
+import{C as s,_ as a}from"./index-e0ab3806.js";const c=n=>{const{r,g:e,b:o}=s.parse(n),t=.2126*a.channel.toLinear(r)+.7152*a.channel.toLinear(e)+.0722*a.channel.toLinear(o);return a.lang.round(t)},i=c,l=n=>i(n)>=.5,h=l,L=n=>!h(n),p=L;export{p as i};
